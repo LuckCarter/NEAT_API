@@ -1,1 +1,0 @@
-# FullStack-Nextjs-GQL_API
