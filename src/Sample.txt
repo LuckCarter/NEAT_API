@@ -1,0 +1,23 @@
+mutation{
+  signup(
+    Firstname:"test1",
+    Lastname:"test1",
+    Phone:"0616798184",
+    Adress:"test1",
+    Email:"test1@gmail",
+    Password:"test1",
+    IsAdmin:true
+  )}
+
+  mutation{
+  createProduct(
+    Title:"product1",
+    Price:1.20,
+    Url:"https://images.pexels.com/photos/2766396/pexels-photo-2766396.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    Description:"frzefzerfze"
+  ){
+    id
+    Title
+  	Url
+  }
+}

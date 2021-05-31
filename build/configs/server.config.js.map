@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/configs/server.config.js"],"names":["port","process","env","PORT"],"mappings":";;;;;;eAAc;AACVA,EAAAA,IAAI,EAACC,OAAO,CAACC,GAAR,CAAYC,IAAZ,IAAoB;AADf,C","sourcesContent":["export default{\n    port:process.env.PORT || 5000\n}"],"file":"server.config.js"}

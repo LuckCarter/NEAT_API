@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/configs/db.config.js"],"names":["require","config","url","process","env","DB"],"mappings":";;;;;;;AAAAA,OAAO,CAAC,QAAD,CAAP,CAAkBC,MAAlB;;eACc;AACVC,EAAAA,GAAG,EAAEC,OAAO,CAACC,GAAR,CAAYC;AADP,C","sourcesContent":["require('dotenv').config();\nexport default{\n    url: process.env.DB\n}"],"file":"db.config.js"}

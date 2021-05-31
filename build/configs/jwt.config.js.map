@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/configs/jwt.config.js"],"names":["secret","process","env","JWT_SECRET"],"mappings":";;;;;;eAAc;AACVA,EAAAA,MAAM,EAACC,OAAO,CAACC,GAAR,CAAYC;AADT,C","sourcesContent":["export default{\n    secret:process.env.JWT_SECRET\n}"],"file":"jwt.config.js"}

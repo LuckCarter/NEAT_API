@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/models/index.js"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AACA;;AACA;;AACA;;AACA","sourcesContent":["\nimport User from \"./User\";\nimport Order from \"./Order\";\nimport Product from \"./Product\";\nimport Categorie from \"./Categorie\";\nexport { \n    Product,\n    Order,\n    User,\n    Categorie\n };\n"],"file":"index.js"}
